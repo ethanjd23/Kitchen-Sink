@@ -3,7 +3,7 @@ const numberOfStates = 50; //number of states doesn't change
 let nine = 5 + 4; //addition
 function sayHello () {
     alert("Hello World!");
-}
+};
 sayHello()
 function checkAge (name, age) {
     if (age < 21) {
@@ -20,7 +20,7 @@ for(let i = 0; i < myFavoriteVegetables.length; i++) {
 let pet = {
     name: "Rosie",
     breed: "Miniature Pinscher"
-}
+};
 console.log(pet);
 let friends = [
     { name: "Abbie", age: 22 },
@@ -31,7 +31,7 @@ let friends = [
 ]
 for(let i = 0; i < friends.length; i++) {
     checkAge(friends[i].name, friends[i].age)
-} // checks age of objects in the friends array
+}; // checks age of objects in the friends array
 function getLength (word) {
     let stringlength = word.length
     if(stringlength % 2 == 0) {
